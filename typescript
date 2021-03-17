@@ -1,0 +1,38 @@
+Script started on Wed 09 Dec 2020 05:40:27 PM EST
+]0;karamuca_ra@cobra:~/Classes/CSC245/Projects/prog4[?1034h[karamuca_ra@cobra prog4]$ c++ dijkstra.cpp 
+]0;karamuca_ra@cobra:~/Classes/CSC245/Projects/prog4[karamuca_ra@cobra prog4]$ ./a.out ginfile3.dat 
+[3;J[H[2J		--------------- Dijkstra's Algorithm Program ---------------
+
+A Weighted Graph has been Build for these 12 Cities:
+
+                        Athens                       Atlanta                       Augusta 
+                        Baxley                       Conyers                Ft. Oglethorpe 
+                         Macon                      Norcross                      Savannah 
+                       Suwanee                      Valdosta                 Warner Robins 
+
+Enter a starting vertex: Ft. O
+Not a vertex... Try again.
+
+Enter a starting vertex: ^[[A    Ft. Or gl	 lethorpe
+--------------------------------------------------------------------------------------------
+                        Vertex                       Distance                       Previous 
+                        ------                       --------                       --------
+                Ft. Oglethorpe                              0                            N/A 
+                       Atlanta                            110                 Ft. Oglethorpe 
+                      Norcross                            130                        Atlanta 
+                       Conyers                            130                        Atlanta 
+                       Suwanee                            140                        Atlanta 
+                        Athens                            180                        Atlanta 
+                         Macon                            190                        Atlanta 
+                 Warner Robins                            210                          Macon 
+                       Augusta                            250                        Atlanta 
+                        Baxley                            310                          Macon 
+                      Valdosta                            340                          Macon 
+                      Savannah                            350                          Macon 
+]0;karamuca_ra@cobra:~/Classes/CSC245/Projects/prog4[karamuca_ra@cobra prog4]$ ./a.out asdasd
+File name is incorrect.
+Try again.
+]0;karamuca_ra@cobra:~/Classes/CSC245/Projects/prog4[karamuca_ra@cobra prog4]$ exit
+exit
+
+Script done on Wed 09 Dec 2020 05:40:56 PM EST
